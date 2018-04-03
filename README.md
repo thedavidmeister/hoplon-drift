@@ -1,6 +1,6 @@
 # hoplon-drift
 
-Drift integration for Hoplon.
+Drift in Hoplon.
 
 https://www.drift.com/
 http://hoplon.io/

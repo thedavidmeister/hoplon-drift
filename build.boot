@@ -1,6 +1,6 @@
 (def project 'thedavidmeister/hoplon-drift)
 (def version "0.2.0")
-(def description "A Hoplon widget for drift integration.")
+(def description "Drift in Hoplon.")
 (def github-url "https://github.com/thedavidmeister/hoplon-drift")
 
 (set-env!
