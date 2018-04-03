@@ -450,6 +450,7 @@ cljs.core.cst$sym$get_DASH_soft_DASH_access = new cljs.core.Symbol(null,"get-sof
 cljs.core.cst$sym$kind_DASH_form = new cljs.core.Symbol(null,"kind-form","kind-form",1155997457,null);
 cljs.core.cst$kw$req = new cljs.core.Keyword(null,"req","req",-326448303);
 cljs.core.cst$kw$host = new cljs.core.Keyword(null,"host","host",-1558485167);
+cljs.core.cst$kw$click = new cljs.core.Keyword(null,"click","click",1912301393);
 cljs.core.cst$sym$edit = new cljs.core.Symbol(null,"edit","edit",-1302639,null);
 cljs.core.cst$sym$hoplon$spec_SLASH_on_BANG_ = new cljs.core.Symbol("hoplon.spec","on!","hoplon.spec/on!",1916558289,null);
 cljs.core.cst$sym$addcv = new cljs.core.Symbol(null,"addcv","addcv",-1552991247,null);
