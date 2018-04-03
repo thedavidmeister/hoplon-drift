@@ -19,8 +19,8 @@
    [adzerk/bootlaces "0.1.13"]
 
    ; everything else...
-   [binaryage/oops "0.5.8"]])
-
+   [binaryage/oops "0.5.8"]
+   [environ "1.1.0"]])
 
 (task-options!
  pom {:project project
@@ -35,12 +35,14 @@
  '[tailrecursion.boot-jetty :refer [serve]]
  '[thedavidmeister.boot-github-pages :refer [github-pages]]
  '[crisptrutski.boot-cljs-test :refer [test-cljs]]
- '[adzerk.bootlaces :refer :all])
+ '[adzerk.bootlaces :refer :all]
+ 'hoplon-drift.compile)
 
 (bootlaces! version)
 
 (def compiler-options
- {:foreign-libs []})
+ (-> {}
+  hoplon-drift.compile/with-closure-defines))
 
 (deftask front-dev
  "Build for local development."

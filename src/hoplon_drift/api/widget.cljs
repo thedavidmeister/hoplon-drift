@@ -9,14 +9,14 @@
   (hoplon-drift.api/lib)
   "api.widget"))
 
-(defn show
+(defn show!
  []
  (hoplon-drift.api/ensure-lib!)
  (oops.core/ocall
   (widget)
   "show"))
 
-(defn hide
+(defn hide!
  []
  (hoplon-drift.api/ensure-lib!)
  (oops.core/ocall
