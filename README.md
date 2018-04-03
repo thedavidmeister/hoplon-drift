@@ -19,7 +19,7 @@ runtime (see below).
 
 A convenience fn `hoplon-drift.compile/with-closure-defines` is provided.
 
-`with-closure-defints` accepts your existing config and an id directly, returns
+`with-closure-defines` accepts your existing config and an id directly, returns
 the config with the id merged in.
 
 The id is also supported as an environment variable as per `environ` under
