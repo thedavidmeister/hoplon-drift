@@ -11,7 +11,7 @@ http://hoplon.io/
 
 Uses snippet version `0.3.1` from Drift installation docs.
 
-## Drift config
+### Drift config
 
 `hoplon-drift.data/id` can be set with `:closure-defines` in the compiler
 options for CLJS. This is optional as the id can be passed to the snippet at
@@ -26,6 +26,12 @@ The id is also supported as an environment variable as per `environ` under
 `:drift-id`.
 
 There is an example of this in `build.boot`.
+
+### Drift externs
+
+If you're using advanced compilation for cljs you will need to provide externs.
+
+Current working externs for Drift can be found in `externs.js`.
 
 ## Usage
 

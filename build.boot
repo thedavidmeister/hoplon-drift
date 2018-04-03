@@ -41,7 +41,7 @@
 (bootlaces! version)
 
 (def compiler-options
- (-> {}
+ (-> {:externs ["externs.js"]}
   hoplon-drift.compile/with-closure-defines))
 
 (deftask front-dev
