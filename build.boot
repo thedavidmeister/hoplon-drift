@@ -1,5 +1,5 @@
 (def project 'thedavidmeister/hoplon-drift)
-(def version "0.2.0")
+(def version "0.3.0")
 (def description "Drift in Hoplon.")
 (def github-url "https://github.com/thedavidmeister/hoplon-drift")
 
